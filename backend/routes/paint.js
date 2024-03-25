@@ -8,6 +8,6 @@ const paintController = require('../controller');
 
 router.get('/getAllStatus', upload.none(), paintController.getAllStatus);
 
-router.post('/updatestatus', upload.none(), paintController.updateStatus);
+router.post('/updateStatus', upload.none(), paintController.updateStatus);
 
 module.exports = router;
